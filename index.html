@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 3</title>
+    <link rel="stylesheet" href="/assets/style/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ROCK PAPER SCISSORS</h1>
+      <div class="scoreContainer">
+        <p>SCORE</p>
+        <p>0</p>
+      </div>
+    </header>
+
+    <main>
+      <article class="gameContainer">
+        <div id="chooser">
+          <div id="paper">
+            <img src="/images/icon-paper.svg" alt="" />
+          </div>
+          <div id="scissors">
+            <img src="/images/icon-scissors.svg" alt="" />
+          </div>
+          <div id="rock">
+            <img src="/images/icon-rock.svg" alt="" />
+          </div>
+        </div>
+        <div id="iaChoos">
+          <h2>THE HOUSE PICKED</h2>
+          <span></span>
+        </div>
+      </article>
+      <div class="rulesSide">
+        <div class="rulesDetail" data-show="false">
+          <h2>RULES</h2>
+          <img src="/images/icon-close.svg" alt="" onclick="toggleDetails()" />
+          <img src="/images/image-rules.svg" alt="" />
+        </div>
+        <button onclick="toggleDetails()">RULES</button>
+      </div>
+    </main>
+
+    <script src="/assets/main.js"></script>
+  </body>
+</html>
