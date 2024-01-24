@@ -48,7 +48,7 @@ for (let index = 0; index < choices.length; index++) {
     iaChoos.classList.add(`${iaChoice}`);
 
     let iaImageChoose = iaChoos.appendChild(document.createElement("img"));
-    iaImageChoose.setAttribute("src", `../images/icon-${iaChoice}.svg`);
+    iaImageChoose.setAttribute("src", `./images/icon-${iaChoice}.svg`);
 
     setTimeout(() => {
       iaImageChoose.style.opacity = "1";
